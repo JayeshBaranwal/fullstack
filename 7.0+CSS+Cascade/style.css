@@ -1,0 +1,42 @@
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+/* Add your CSS below this line */
+#outer-box {
+  background-color: purple;
+}
+
+.inner-box {
+  background-color: red;
+}
+
+.white-text {
+  /* background-color: red; */
+  color: white;
+  padding: 10px;
+}
+
+/* CSS Cascading Rules:
+1. Inline styles have the highest priority.
+2. IDs have higher priority than classes.
+3. Classes have higher priority than element selectors.
+4. If two selectors have the same specificity, the one that appears last in the CSS will take precedence.
+In this case, the #outer-box selector will override the .box selector for the outer box, and the #inner-box selector will override the .box selector for the inner box. The .white-text class will apply to any element with that class, regardless of its position in the HTML.
+
+sub rules:
+a) Position- lowest to highest order of precedence, soo if there are 1, 2, 3, 4 then 4 will have the highest precedence. 4 > 3 > 2 > 1
+b) Specificity- IDs (e.g. #outer-box) > Attributes (e.g. draggable) > Classes (e.g. .white-text) > Elements
+c) Type- Inline CSS > Internal CSS > External CSS (soo inline CSS has the highest priority and it will overrule external and internal CSS)
+d) Importance- normal rules < !important rules (soo !important rules have the highest priority and will overrule normal rules)
+
+** Most Important Rule: order of cascading- Importance > Type > Specificity > Position ** */

@@ -1,0 +1,31 @@
+/* Write your code here: */
+
+/* group selectors */
+h1, h2 {
+  color: blueviolet;
+}
+
+/* child selectors */
+.box > p {
+  color: firebrick;
+}
+
+/* descendant selectors */
+.box li {
+  color: darkcyan;
+}
+
+/* chaining selectors */
+li.done {
+  color: darkmagenta;
+}
+
+/* combining selectors */
+
+ul p.done {
+    font-size: 0.5rem;
+}
+/* ul > p.done {
+    font-size: 0.5rem;
+}
+    both are valid */
