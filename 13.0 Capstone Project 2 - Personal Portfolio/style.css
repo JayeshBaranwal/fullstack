@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.top-container {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.top-text h1 {
+    font-family: 'Bitcount Grid Double Ink', monospace;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.top-text p {
+    font-size: 1.5rem;
+}
+
+.top-text span {
+    color: #ff6b6b;
+}
+
+.middle-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.about-me, .skills, .projects, .contact {
+    margin-bottom: 50px;
+}
+
+h2 {
+    font-family: 'Bitcount Grid Double Ink', monospace;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-me p {
+    font-size: 1.2rem;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(50% - 10px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin: 10px 0;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.resume a, .project a {
+    display: inline-block;
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.resume a:hover, .project a:hover {
+    background-color: #ff5252;
+}
+
+.contact p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
